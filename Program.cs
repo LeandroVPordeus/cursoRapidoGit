@@ -33,6 +33,8 @@ namespace Hotelzinho
                     Console.WriteLine(i + ": " + vet[i]);
                 }
             }
+
+            Console.ReadLine();
         }
     }
 }
