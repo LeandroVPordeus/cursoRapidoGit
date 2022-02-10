@@ -7,7 +7,7 @@ namespace Hotelzinho
         static void Main(string[] args)
         {
             Hospede[] vet = new Hospede[10];
-
+            Console.WriteLine("Bem VIndo ao Grande Hotel !!!!!!");
             Console.Write("Quantos Quartos serão alugados? ");
             int n = int.Parse(Console.ReadLine());
 
