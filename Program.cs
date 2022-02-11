@@ -14,11 +14,11 @@ namespace Hotelzinho
             for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Aluguel #{i}:");
-                Console.Write("Nome: ");
+                Console.Write("Nome:");
                 string nome = Console.ReadLine();
-                Console.Write("Email: ");
+                Console.Write("Email:");
                 string email = Console.ReadLine();
-                Console.Write("Quarto: ");
+                Console.Write("Quarto:");
                 int quarto = int.Parse(Console.ReadLine());
                 vet[quarto] = new Hospede(nome, email);
             }
