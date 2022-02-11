@@ -34,6 +34,8 @@ namespace Hotelzinho
                 }
             }
 
+            Console.WriteLine("Tenha um bom dia");
+
             Console.ReadLine();
         }
     }
